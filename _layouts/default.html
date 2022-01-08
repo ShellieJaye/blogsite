@@ -9,6 +9,7 @@
   <body>
     {% include navbar.html %}  
     {{ content}}
+<div class="card">
     <ul>
   {% for post in site.posts %}
     <li>
@@ -17,6 +18,7 @@
     </li>
   {% endfor %}
 </ul>
+</div>
     {% include footer.html %}  
   </body>
 </html>
