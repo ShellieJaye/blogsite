@@ -11,9 +11,5 @@ sass:
   sass_dir: assets/css/
 
 
-# Outputting
-permalink           : date
-paginate_path       : /page:num
-timezone            : null
 
 
