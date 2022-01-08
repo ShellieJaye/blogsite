@@ -9,23 +9,7 @@ data_dir            : _data
 includes_dir        : _includes
 sass:
   sass_dir: assets/css/
-collections:
-  posts:
-    output          : true
 
-# Filtering Content
-show_drafts         : null
-limit_posts         : 0
-future              : false
-unpublished         : false
-
-
-# Conversion
-markdown            : kramdown
-highlighter         : rouge
-lsi                 : false
-excerpt_separator   : "\n\n"
-incremental         : false
 
 # Outputting
 permalink           : date
